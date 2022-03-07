@@ -1,0 +1,32 @@
+header{
+    
+    height: 100px;
+    align-items: center;
+}
+
+
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.nav-logo-container{
+    margin-left: 50px;
+
+}
+
+.nav-logo-container img{
+    width: 220px;
+    margin-top: 5px
+    
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
